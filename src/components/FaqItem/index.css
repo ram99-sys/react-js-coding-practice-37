@@ -1,0 +1,43 @@
+.faqs-list-item {
+  border: 1px solid #9aa5b1;
+  margin: 20px;
+  border-radius: 20px;
+}
+.question-text {
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 500;
+}
+.button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding-right: 20px;
+}
+.question-container {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.horizontal-line {
+  margin: 0px;
+  color: #9aa5b1;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.answer-text {
+  padding-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+.question-text {
+  font-size: 20px;
+}
+@media screen and (max-width: 768px) {
+  .question-text {
+    font-size: 18px;
+    width: 80%;
+  }
+}
